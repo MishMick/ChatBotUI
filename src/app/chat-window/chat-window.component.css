@@ -13,7 +13,7 @@ margin-left: 0px;  width:100%;
 }
 .chat-window .msg-container-base{
   background: #3E505D;
-  max-height: 80vh;
+  max-height: 77vh;
   overflow: auto;
 }
 
