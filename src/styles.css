@@ -1501,6 +1501,7 @@ pre {
   overflow-y: scroll; }
 
 .container {
+  width:40%;
   }
   .container:before, .container:after {
     content: " ";
@@ -1509,13 +1510,13 @@ pre {
     clear: both; }
   @media (min-width: 768px) {
     .container {
-      width: 750px; } }
+      width: 30%; } }
   @media (min-width: 992px) {
     .container {
-      width: 970px; } }
+      width: 30%; } }
   @media (min-width: 1200px) {
     .container {
-      width: 1170px; } }
+      width: 30%; } }
 
 .container-fluid {
   margin-right: auto;

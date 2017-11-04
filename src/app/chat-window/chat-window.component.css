@@ -9,7 +9,7 @@ margin-left: 0px;  width:100%;
   background: #db0011;
 }
 .chat-window-container{
-  width:40%;
+  width:100%;
 }
 .chat-window .msg-container-base{
   background: #3E505D;

@@ -16,6 +16,9 @@ import { ChatWindowComponent } from './chat-window/chat-window.component';
 import { ChatPageComponent } from './chat-page/chat-page.component';
 import { FromNowPipe } from './pipes/from-now.pipe';
 import { ResultsGridComponent } from './results-grid/results-grid.component';
+import { Ng2TableModule } from '../../components/ng-table-module';
+import { PaginationModule } from 'ng2-bootstrap/ng2-bootstrap';
+import { TabsModule } from 'ng2-bootstrap/ng2-bootstrap';
 
 @NgModule({
   declarations: [
@@ -32,6 +35,8 @@ import { ResultsGridComponent } from './results-grid/results-grid.component';
   imports: [
     BrowserModule,
     FormsModule,
+    Ng2TableModule,
+    PaginationModule,
     HttpModule
   ],
   providers: [
