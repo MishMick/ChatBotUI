@@ -35,7 +35,7 @@ const initialMessages: Array<Message> = [
   new Message({
     author: echo,
     sentAt: moment().subtract(1, 'minutes').toDate(),
-    text: `I\'ll echo whatever you send me`,
+    text: `Hi, how can I help you?`,
     thread: tEcho
   }),
   new Message({
@@ -79,7 +79,7 @@ export class ChatExampleData {
         messagesService.addMessage(
           new Message({
             author: echo,
-            text: message.text,
+            text: 'These are the results we\'ve found!',
             thread: tEcho
           })
         );
