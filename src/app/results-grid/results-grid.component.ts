@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./results-grid.component.css']
 })
 export class ResultsGridComponent implements OnInit {
-
   constructor() { }
 
   ngOnInit() {

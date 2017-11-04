@@ -19,6 +19,7 @@ import { ResultsGridComponent } from './results-grid/results-grid.component';
 import { Ng2TableModule } from '../../components/ng-table-module';
 import { PaginationModule } from 'ng2-bootstrap/ng2-bootstrap';
 import { TabsModule } from 'ng2-bootstrap/ng2-bootstrap';
+import { ResultsTableComponent } from './results-table/results-table.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { TabsModule } from 'ng2-bootstrap/ng2-bootstrap';
     ChatWindowComponent,
     ChatPageComponent,
     FromNowPipe,
-    ResultsGridComponent
+    ResultsGridComponent,
+    ResultsTableComponent
   ],
   imports: [
     BrowserModule,
