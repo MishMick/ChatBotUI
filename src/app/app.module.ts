@@ -15,6 +15,7 @@ import { ChatThreadsComponent } from './chat-threads/chat-threads.component';
 import { ChatWindowComponent } from './chat-window/chat-window.component';
 import { ChatPageComponent } from './chat-page/chat-page.component';
 import { FromNowPipe } from './pipes/from-now.pipe';
+import { ResultsGridComponent } from './results-grid/results-grid.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FromNowPipe } from './pipes/from-now.pipe';
     ChatThreadsComponent,
     ChatWindowComponent,
     ChatPageComponent,
-    FromNowPipe
+    FromNowPipe,
+    ResultsGridComponent
   ],
   imports: [
     BrowserModule,
